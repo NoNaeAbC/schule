@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Raleway');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli';
+  background: #123;
+  color: #123;
+  text-align: justify;
+}
+
+header{
+  font-family: 'Raleway';
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  color: #eff;
+  background: #012;
+  width: 100vw;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+header h1{
+  margin: 0;
+  padding-top: 20px;
+}
+
+header nav{
+  background: #123;
+  margin:0;
+}
+
+header nav ul li{
+  border-top: 0px;
+  width: 33%;
+  list-style: none;
+  float: left;
+}
+
+div#banner{
+  background: #304558;
+  width: 100vw;
+  height: 300px;
+  overflow: hidden;
+  margin: 0;
+}
+
+div#banner img{
+  width: 100vw;
+  height: auto;
+}
+
+main{
+  display: grid;
+  z-index: 1000;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  background: #eff;
+}
+
+a{
+  text-decoration: none;
+  color: #8ab;
+}
+
+a:hover{
+  background: #234;
+}
+
+ul li{
+  list-style: none;
+}
+
+#potrait{
+  height: 100vh;
+  width: 100vw;
+}

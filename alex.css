@@ -1,0 +1,75 @@
+a:hover{
+  font-size: 101%;
+  padding: 0px 10px;
+  animation: kopie 10s;
+}
+
+
+@keyframes kopie {
+    100% {opacity: 100;}
+}
+
+@keyframes brightness {
+  0% {-webkit-filter:brightness(70%);-webkit-filter:blur(2px);}
+    100% {-webkit-filter:brightness(100%);-webkit-filter:blur(0px);}
+}
+
+#nav{
+  display:none;
+}
+
+werDasLiestIstToll{
+  display: none;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+werDasLiestIstBesser{
+  display: none;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: #a84;
+}
+
+.photo{
+  height: 60vh !important;
+  width: auto;
+  max-width: 70vw !important;
+  filter:brightness(70%);
+  filter:blur(2px);
+}
+
+.text{
+  text-align: left;
+  font-size: 150%;
+}
+
+.photo:hover{
+  filter:brightness(100%);
+  filter:blur(0px);
+  animation: brightness 2s;
+}
+
+#fenster{
+  min-width: 80vw;
+  min-height: 80vh;
+  max-width: 80vw;
+  max-height: 80vh;
+  position: fixed;
+  z-index: 1000;
+  top: 10vh;
+  left: 10vw;
+  background-color: #000;
+  display:none;
+  align-content: center;
+}
+
+#pics{
+  min-height: 20vh;
+  display: inline;
+}
+#big{
+  max-height: 80vh;
+  height: 80vh;
+  max-width: 80vw;
+}

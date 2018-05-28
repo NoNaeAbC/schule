@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>rndmprlx</title>
+    <style>
+    .parallax {
+perspective: 1px;
+height: 100vh;
+overflow-x: hidden;
+overflow-y: auto;
+}
+.parallax__layer {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}
+.parallax__layer--base {
+transform: translateZ(0);
+}
+.parallax__layer--back {
+transform: translateZ(-1px);
+}
+    </style>
+  </head>
+  <body>
+
+
+<div class="parallax">
+  <div class="parallax__layer parallax__layer--back">
+    ParlxLay ParLay--Bck
+  </div>
+  <div class="parallax__layer parallax__layer--base">
+    ParlxLay ParLay--Bse
+  </div>
+</div>
+
+
+  </body>
+</html>
